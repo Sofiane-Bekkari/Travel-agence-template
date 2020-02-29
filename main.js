@@ -26,7 +26,7 @@ M.Autocomplete.init(autoComp, {
     Kayrawan: null,
     German: null,
     Berlin: null,
-    "New york": null,
+    'New york': null,
     Wanshington: null
   }
 });
