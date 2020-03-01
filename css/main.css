@@ -8,6 +8,15 @@
 body {
   font-family: 'Quicksand', sans-serif ;
 }
+
+/* TEXT IN SHOWCASE */
+
+.caption {
+  text-shadow: 2px 1px 5px rgb(82, 82, 82);
+  background: linear-gradient(rgba(31, 44, 54, 0.014),rgba(30, 46, 70, 0.068));
+  border-radius: 10px;
+  padding: 0 .5rem;
+}
 .section-search input {
   padding: 0.2rem 0 0.2rem 2rem !important;
   border-radius: 3px !important;
@@ -15,6 +24,8 @@ body {
   width: 80% !important;
   color: #555 !important ;
 }
+
+/* SEARCH INPUT */
 .input-field {
   position: relative;
   margin: 0 auto  !important;
@@ -52,6 +63,18 @@ body {
   transform: translateY(-5px);
 }
 
+/* IMAGES CARD */
+.card {
+  border-bottom: solid 2px var(--primary-logo-color);
+}
+.card-image {
+  cursor: pointer;
+  transition: all .3s;
+}
+.card-image:hover {
+  opacity: .9;
+}
+
 /* SOCIAL ICONS */
 .section-social .fa-2x {
   margin: 0.5rem 0.5rem !important;
@@ -76,13 +99,29 @@ body {
 /* FOOTER */
 #footer-list {
   display: flex;
+ 
 }
 #footer-list ul {
-  padding-right: 3rem;
+  width: 100%;
+  padding: 2rem;
+  padding-right: 2rem;
   text-align: left;
+}
+#footer-list li:first-child{
+  display: block;
+  width: 100px;
+  padding: 0;
+  margin-bottom: .5rem;
+  text-align: left;
+  font-size: 1.1rem;
+  border-bottom: solid 1px #fff;
 }
 #footer-list ul a {
   color: #66bb6a;
+}
+#footer-list ul a:hover {
+  color: var(--third-color);
+  text-decoration: underline;
 }
 .footer-icons {
   width: 100%;
@@ -106,4 +145,9 @@ body {
 }
 .footer-icon a .fa-1x {
   padding: 0 .2rem 0 .2rem;
+}
+/* ANCHOR LIKE AT END */
+footer .link-foot a:hover {
+  color: var(--third-color) !important ;
+  text-decoration: underline;
 }
