@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Travel agency template\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D \u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D",
   "main": "main.js",
+  "homepage": "https://sofiane-bekkari.github.io/Travel-agency-template",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Sofiane bekkari\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
   "license": "MIT",
