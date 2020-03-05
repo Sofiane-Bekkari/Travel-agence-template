@@ -23,7 +23,7 @@
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
-          <ul class="right hide-on-med-and-down blue-text">
+          <ul class="right hide-on-med-and-down">
             <li><a href="#home">Home</a></li>
             <li><a href="#search">Search</a></li>
             <li><a href="#popular">Popular Places</a></li>
@@ -155,6 +155,7 @@
           <div class="card">
             <div class="card-image">
               <img src="img/seaside-hawai.png" alt="beach" />
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
               <span class="card-title">Hawaii, Honolu</span>
             </div>
             <div class="card-content">
@@ -170,6 +171,8 @@
           <div class="card">
             <div class="card-image">
               <img src="img/greece-santorini.jpg" alt="city" />
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                  class="material-icons">favorite</i></a>
               <span class="card-title">Greece, Santorini</span>
             </div>
             <div class="card-content">
@@ -185,6 +188,7 @@
           <div class="card">
             <div class="card-image">
               <img src="img/nature3.png" alt="mountain" />
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
               <span class="card-title">Mountaine, Everest</span>
             </div>
             <div class="card-content">
@@ -200,6 +204,7 @@
           <div class="card">
             <div class="card-image">
               <img src="img/nature2.png" alt="city" />
+              <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
               <span class="card-title">Germany, Baden-Württemberg</span>
             </div>
             <div class="card-content">
@@ -289,7 +294,7 @@
   <section id="contact" class="section section-contect scrollspy">
     <div class="container">
       <div class="row">
-        <div class="col s12 m6">
+        <div class="col s12 m5">
           <div class="card-panel cp-contact teal darken-.5 white-text center">
             <i class="material-icons">email</i>
             <h5>Contact Us For Booking</h5>
@@ -303,27 +308,59 @@
               <h4>Our Location</h4>
             </li>
             <li class="collection-item">North-Africa</li>
-            <li class="collection-item">Tunisia TS, 16075</li>
-            <li class="collection-item">Algeria SBA, 22075</li>
-            <li class="collection-item">Marocoo CB, 32005</li>
-            <li class="collection-item">Phone +111 075 555</li>
+            <li class="collection-item">
+              <div>Tunisia TS, 16075<a href="#!" class="secondary-content"><i
+                    class="material-icons grey-text">location_on</i></a>
+              </div>
+            </li>
+            <li class="collection-item">
+              <div>Algeria SBA, 22075<a href="#!" class="secondary-content"><i
+                    class="material-icons grey-text">location_on</i></a>
+              </div>
+            </li>
+            <li class="collection-item">
+              <div>Marocoo CB, 32005<a href="#!" class="secondary-content"><i
+                    class="material-icons grey-text">location_on</i></a>
+              </div>
+            </li>
+            <li class="collection-item">
+              <div>Phone +111 075 555<a href="#!" class="secondary-content"><i
+                    class="material-icons grey-text">phone</i></a>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="col s12 m6">
-          <div class="card-panel cp-contact grey lighten-3 center">
+
+        <div class="col s12 m6 offset-m1">
+          <div class="card-panel cp-contact grey lighten-4 center">
             <h5>Pleaes fill out your info</h5>
-            <div class="input-field white-text">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Emial" />
-              <input type="text" placeholder="Phone" />
-              <div>
-                <textarea placeholder="Message" class="materialize-textarea"></textarea>
-              </div>
-              <input type="submit" value="Submit" class="btn teal" />
+
+            <div class="input-field">
+              <i class="material-icons prefix  grey-text ">account_circle</i>
+              <input type="text" id="name" />
+              <label for="text">Name</label>
             </div>
+            <div class="input-field">
+              <i class="material-icons tiny prefix grey-text">email</i>
+              <input type="email" id="email" />
+              <label for="text">Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix grey-text">phone</i>
+              <input type="text" id="phone" />
+              <label for="text">Phone</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix grey-text">edit</i>
+              <textarea class="materialize-textarea"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <input type="submit" value="Submit" class="btn teal" />
+
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -353,6 +390,7 @@
           </div>
           <br>
           <div class="footer-icon">
+            Follow Us
             <a href="#" class="white-text"><i class="fab fa-instagram fa-1x"></i></a>
             <a href="#" class="white-text"><i class="fab fa-facebook fa-1x"></i></a>
             <a href="#" class="white-text"><i class="fab fa-linkedin fa-1x"></i></a>
